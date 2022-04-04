@@ -38,7 +38,7 @@ namespace GithubActionsLab
         {
             Assert.AreEqual(1, Program.Subtract("3", "2"));
             Assert.AreEqual(3, Program.Subtract("5", "2"));
-            Assert.AreEqual(2, Program.Subtract("5", "7"));
+            Assert.AreEqual(2, Program.Subtract("7", "5"));
         }
 
         [Test]
@@ -88,7 +88,7 @@ namespace GithubActionsLab
         public void Divide_validPerez()
         {
             Assert.AreEqual(3, Program.Divide("6", "2"));
-            Assert.AreEqual(2, Program.Divide("10", "2"));
+            Assert.AreEqual(5, Program.Divide("10", "2"));
             Assert.AreEqual(5, Program.Divide("40", "8"));
         }
 
